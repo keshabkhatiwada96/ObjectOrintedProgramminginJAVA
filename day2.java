@@ -1,10 +1,5 @@
-class day2 {
-String name;
-  void main(String[] args) {
-
- name="keshab";
- System.out.println(name + " is studying");
-}
-
-
+class day2{
+  public static void main(String[] args) {
+      System.out.println("Hello Java");
+  }
 }
