@@ -1,36 +1,20 @@
-class Animal{
-    String type;
-    String color;
-   
+class Calculator {
+
+    void add(int a, int b) {
+        System.out.println(a + b);
     }
 
-class Dog extends Animal{
-    
-    int weight;
-
-}
-class Puppy extends Animal{
-    int height;
+    void add(int a, int b, int c) {
+        System.out.println(a + b + c);
+    }
 }
 
+public class book {
+    public static void main(String[] args) {
 
-public class book{
-public static void main(String[] args) { 
+        Calculator c1 = new Calculator();
 
-  Puppy p1 = new Puppy();
-  Dog d1 = new Dog();
-
-  p1.type = "german-shepard" ;
-  p1.color = "red";
-  d1.weight = 10;
-  p1.height = 20;
-
-  System.out.println(p1.type);
-  System.out.println(p1.color);
-  System.out.println(p1.height);
-  System.out.println(d1.weight);
-   
-}
-
-}
-
+        c1.add(10, 20);
+        c1.add(10, 20, 30);
+    }
+} 
